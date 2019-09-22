@@ -5,6 +5,10 @@ int main()
 {
     double a,b;
     cin>>a>>b;
+    if (a<b)
+    cout<<"Данные введены некорректно";
+    else {
     cout<<floor(a/b);
+    }
     return 0;
 }
